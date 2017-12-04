@@ -1,5 +1,6 @@
 package com.synergy.hackerrank;
 
+// print pattern class
 public class PrintPattern {
 	
 	public static void main(String[] args) {
