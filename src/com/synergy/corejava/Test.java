@@ -1,5 +1,7 @@
 package com.synergy.corejava;
 
+import java.io.FileNotFoundException;
+
 public class Test {
 	int i = 1_00_0;
 
@@ -7,6 +9,8 @@ public class Test {
 		System.out.println(new Test().i);
 		int c = BB.c;
 		//BB b = new BB();
+		
+		
 	}
 
 }

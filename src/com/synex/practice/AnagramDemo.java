@@ -10,6 +10,12 @@ public class AnagramDemo {
 
 	}
 
+	/**
+	 * 
+	 * @param s1
+	 * @param s2
+	 * @return
+	 */
 	public static boolean isAnagram(String s1, String s2) {
 
 		boolean status = true;
