@@ -9,6 +9,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
+/**
+ * 
+ * http://www.javainterviewpoint.com/how-to-sort-hashmap-in-java-by-keys/
+ *
+ */
 public class HashMapSortByValue {
 
 	public static void main(String[] args) {

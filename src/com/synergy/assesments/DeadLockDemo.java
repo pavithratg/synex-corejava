@@ -1,5 +1,10 @@
 package com.synergy.assesments;
 
+/**
+ * 
+ *https://www.geeksforgeeks.org/deadlock-in-java-multithreading/
+ *
+ */
 public class DeadLockDemo {
 
 	public static void main(String[] args) {
