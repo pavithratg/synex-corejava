@@ -18,6 +18,7 @@ public class StringReplacePV {
 		// newLength = currentLength + noOfSpaces*2
 		newLength = s.length() + spaceCount * 2;
 
+		// creating the character array based on the new length
 		char[] arr = new char[newLength];
 
 		for (int i = s.length() - 1; i >= 0; i--) {
@@ -28,9 +29,12 @@ public class StringReplacePV {
 				arr[newLength - 2] = '2';
 				arr[newLength - 3] = '%';
 
+				// updating the new index
 				newLength -= 3;
 			} else {
 				arr[newLength - 1] = c;
+				
+				// updating the new index
 				newLength -= 1;
 			}
 
